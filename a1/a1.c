@@ -427,16 +427,17 @@ cleanup:
     {
         close(fd);
     }
+    
     if(NULL != data)
     {
         free(data);
     }
     
-    if(ERROR_SUCCESS != status)
+    if(NULL != parsed)
     {
         sf_file_destroy(&parsed);
-        return -1;
     }
+        
     return 0;
 }
 
