@@ -285,6 +285,7 @@ void* Process5ThreadRoutine(void* thcontext)
 
     info(BEGIN, 5, context->id);
 
+    /*
     {
         pthread_mutex_lock(context->lock);
         ++(*context->numActiveThreads);
@@ -299,7 +300,7 @@ void* Process5ThreadRoutine(void* thcontext)
         }
         pthread_mutex_unlock(context->lock);
     }
-
+   
     if(context->id == 12)
     {
         pthread_mutex_lock(context->lock);
@@ -325,6 +326,9 @@ void* Process5ThreadRoutine(void* thcontext)
         pthread_mutex_unlock(context->lock);
         info(END, 5, context->id);
     }
+    */
+
+    info(END, 5, context->id);
     sem_post(context->semaphore);
 
     return NULL;
