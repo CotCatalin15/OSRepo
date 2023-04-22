@@ -23,9 +23,9 @@ typedef struct
     pthread_mutex_t* lock;
     int* numActiveThreads;
     int* t12Active;
+    int* remainingThreads;
 
     pthread_cond_t* cVar;
-    pthread_cond_t* t12EndCVar;
 }Process5Context;
 
 typedef struct
@@ -285,50 +285,51 @@ void* Process5ThreadRoutine(void* thcontext)
 
     info(BEGIN, 5, context->id);
 
-    /*
     {
         pthread_mutex_lock(context->lock);
-        ++(*context->numActiveThreads);
+        --(*context->remainingThreads);
 
-        if(context->id == 12)
+        if(*context->remainingThreads == 5 && *context->t12Active != 2)
         {
             *context->t12Active = 1;
         }
-        else if (*context->numActiveThreads == 6 && *context->t12Active == 1)
+
+        if(context->id == 12)
         {
-            pthread_cond_broadcast(context->cVar);
+            ++(*context->numActiveThreads);
+            *context->t12Active = 1;
+
+            if(*context->numActiveThreads != 6)
+            {
+                //Sleep until ok
+                pthread_cond_wait(context->cVar, context->lock);
+            }
         }
-        pthread_mutex_unlock(context->lock);
+        else if (*context->t12Active == 1)
+        {
+            ++(*context->numActiveThreads);
+            if(*context->numActiveThreads == 6)
+            {
+                pthread_cond_broadcast(context->cVar);
+            }
+            while(*context->t12Active == 1)
+            {
+                pthread_cond_wait(context->cVar, context->lock);
+            }
+        }
+        pthread_mutex_unlock(context->lock);   
     }
-   
+
+    info(END, 5, context->id);
+
     if(context->id == 12)
     {
         pthread_mutex_lock(context->lock);
-        if(*context->numActiveThreads != 6)
-        {
-            pthread_cond_wait(context->cVar, context->lock);
-        }
-        *context->t12Active = 0;
-        info(END, 5, context->id);
-        --(*context->numActiveThreads);
-        pthread_mutex_unlock(context->lock);
-
-        pthread_cond_broadcast(context->t12EndCVar);
+        *context->t12Active = 2; //Executed
+        pthread_mutex_unlock(context->lock);   
+        pthread_cond_broadcast(context->cVar);
     }
-    else
-    {
-        pthread_mutex_lock(context->lock);
-        if(*context->t12Active == 1)
-        {
-            pthread_cond_wait(context->t12EndCVar, context->lock);
-        }
-        --(*context->numActiveThreads);
-        pthread_mutex_unlock(context->lock);
-        info(END, 5, context->id);
-    }
-    */
 
-    info(END, 5, context->id);
     sem_post(context->semaphore);
 
     return NULL;
@@ -350,34 +351,19 @@ void Process5Routine(void* Context)
     pthread_cond_t cVar;
     pthread_cond_init(&cVar, NULL);
 
-    pthread_cond_t t12EndCVar;
-    pthread_cond_init(&t12EndCVar, NULL);
-
     int numActiveThreads = 0;
-    int t12Active = 1;
-    
-    contexts[11].semaphore = &mainSem;
-    contexts[11].id = 12;
-    contexts[11].lock = &lock;
-    contexts[11].cVar = &cVar;
-    contexts[11].t12EndCVar = &t12EndCVar;
-    contexts[11].numActiveThreads = &numActiveThreads;
-    contexts[11].t12Active = &t12Active;
-
-    pthread_create(&threads[11], NULL, Process5ThreadRoutine, &contexts[11]);
+    int t12Active = 0;
+    int remainingThread = 47;
 
     for(int i = 0; i < 47; ++i)
     {
-        if(i == 11)
-            continue;
-
         contexts[i].semaphore = &mainSem;
         contexts[i].id = i + 1;
         contexts[i].lock = &lock;
         contexts[i].cVar = &cVar;
-        contexts[i].t12EndCVar = &t12EndCVar;
         contexts[i].numActiveThreads = &numActiveThreads;
         contexts[i].t12Active = &t12Active;
+        contexts[i].remainingThreads = &remainingThread;
 
         pthread_create(&threads[i], NULL, Process5ThreadRoutine, &contexts[i]);
     }
@@ -389,7 +375,6 @@ void Process5Routine(void* Context)
 
     pthread_mutex_destroy(&lock);
     pthread_cond_destroy(&cVar);
-    pthread_cond_destroy(&t12EndCVar);
     sem_destroy(&mainSem);
 
     waitpid(pid9, NULL, 0);
