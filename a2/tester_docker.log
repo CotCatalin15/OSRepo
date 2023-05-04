@@ -1,0 +1,796 @@
+[T] BEGIN P1 T0 pid=22 ppid=7 tid=-1855370424
+[T] BEGIN P7 T0 pid=25 ppid=22 tid=-1855370424
+[T]  END  P7 T0 pid=25 ppid=22 tid=-1855370424
+[T] BEGIN P6 T0 pid=24 ppid=22 tid=-1855370424
+[T]  END  P6 T0 pid=24 ppid=22 tid=-1855370424
+[T] BEGIN P2 T0 pid=23 ppid=22 tid=-1855370424
+[T] BEGIN P3 T0 pid=26 ppid=23 tid=-1855370424
+[T] BEGIN P4 T0 pid=27 ppid=26 tid=-1855370424
+[T] BEGIN P8 T0 pid=34 ppid=27 tid=-1855370424
+[T]  END  P8 T0 pid=34 ppid=27 tid=-1855370424
+[T] BEGIN P2 T0 pid=23 ppid=22 tid=-1855370424
+[T] BEGIN P3 T0 pid=26 ppid=23 tid=-1855370424
+[T] BEGIN P5 T0 pid=28 ppid=26 tid=-1855370424
+[T] BEGIN P9 T0 pid=37 ppid=28 tid=-1855370424
+[T]  END  P9 T0 pid=37 ppid=28 tid=-1855370424
+[T] BEGIN P2 T0 pid=23 ppid=22 tid=-1855370424
+[T] BEGIN P3 T0 pid=26 ppid=23 tid=-1855370424
+[T] BEGIN P5 T0 pid=28 ppid=26 tid=-1855370424
+[T] BEGIN P5 T1 pid=28 ppid=26 tid=-1856152776
+[T] BEGIN P5 T12 pid=28 ppid=26 tid=-1856009416
+[T] BEGIN P5 T3 pid=28 ppid=26 tid=-1856439496
+[T] BEGIN P5 T2 pid=28 ppid=26 tid=-1856296136
+[T] BEGIN P5 T4 pid=28 ppid=26 tid=-1856582856
+[T]  END  P5 T2 pid=28 ppid=26 tid=-1856296136
+[T] BEGIN P5 T5 pid=28 ppid=26 tid=-1856726216
+[T]  END  P5 T1 pid=28 ppid=26 tid=-1856152776
+[T]  END  P5 T12 pid=28 ppid=26 tid=-1856009416
+[T]  END  P5 T3 pid=28 ppid=26 tid=-1856439496
+[T]  END  P5 T4 pid=28 ppid=26 tid=-1856582856
+[T] BEGIN P5 T7 pid=28 ppid=26 tid=-1857017032
+[T] BEGIN P5 T11 pid=28 ppid=26 tid=-1857590472
+[T] BEGIN P5 T8 pid=28 ppid=26 tid=-1857160392
+[T] BEGIN P5 T9 pid=28 ppid=26 tid=-1857303752
+[T] BEGIN P5 T10 pid=28 ppid=26 tid=-1857447112
+[T]  END  P5 T5 pid=28 ppid=26 tid=-1856726216
+[T]  END  P5 T11 pid=28 ppid=26 tid=-1857590472
+[T]  END  P5 T7 pid=28 ppid=26 tid=[T] BEGIN P2 T0 pid=23 ppid=22 tid=-1855370424
+[T] BEGIN P3 T0 pid=26 ppid=23 tid=-1855370424
+[T] BEGIN P4 T0 pid=27 ppid=26 tid=-1855370424
+BEGIN P4T4_WAIT
+[T] BEGIN P4 T2 pid=27 ppid=26 tid=-1856152776
+[T] BEGIN P4 T1 pid=27 ppid=26 tid=-1856009416
+[T] BEGIN P4 T5 pid=27 ppid=26 tid=-1856591048
+[T] BEGIN P4 T3 pid=27 ppid=26 tid=-1856304328
+[T]  END  P4 T1 pid=27 ppid=26 tid=-1856009416
+POST P4T1
+[T]  END  P4 T5 pid=27 ppid=26 tid=-1856591048
+[T]  END  P4 T3 pid=27 ppid=26 tid=-1856304328
+[T]  END  P4 T2 pid=27 ppid=26 tid=-1856152776
+END P4T4_WAIT
+[T] BEGIN P4 T4 pid=27 ppid=26 tid=-1856447688
+[T]  END  P4 T4 pid=27 ppid=26 tid=-1856447688
+[T]  END  P4 T0 pid=27 ppid=26 tid=-1855370424
+-1857017032
+[T]  END  P5 T9 pid=28 ppid=26 tid=-1857303752
+[T]  END  P5 T8 pid=28 ppid=26 tid=-1857160392
+[T]  END  P5 T10 pid=28 ppid=26 tid=-1857447112
+[T] BEGIN P5 T13 pid=28 ppid=26 tid=-1857733832
+[T] BEGIN P5 T15 pid=28 ppid=26 tid=-1858020552
+[T] BEGIN P5 T14 pid=28 ppid=26 tid=-1857877192
+[T] BEGIN P5 T16 pid=28 ppid=26 tid=-1858163912
+[T] BEGIN P5 T17 pid=28 ppid=26 tid=-1858307272
+[T] BEGIN P5 T18 pid=28 ppid=26 tid=-1858450632
+[T]  END  P5 T13 pid=28 ppid=26 tid=-1857733832
+[T]  END  P5 T15 pid=28 ppid=26 tid=-1858020552
+[T]  END  P5 T14 pid=28 ppid=26 tid=-1857877192
+[T]  END  P5 T17 pid=28 ppid=26 tid=-1858307272
+[T]  END  P5 T16 pid=28 ppid=26 tid=-1858163912
+[T] BEGIN P5 T22 pid=28 ppid=26 tid=-1859024072
+[T]  END  P5 T18 pid=28 ppid=26 tid=-1858450632
+[T] BEGIN P5 T20 pid=28 ppid=26 tid=-1858737352
+[T] BEGIN P5 T21 pid=28 ppid=26 tid=-1858880712
+[T] BEGIN P5 T19 pid=28 ppid=26 tid=-1858593992
+[T] BEGIN P5 T23 pid=28 ppid=26 tid=-1859167432
+[T]  END  P5 T22 pid=28 ppid=26 tid=-1859024072
+[T]  END  P5 T20 pid=28 ppid=26 tid=-1858737352
+[T] BEGIN P5 T24 pid=28 ppid=26 tid=-1859310792
+[T]  END  P5 T21 pid=28 ppid=26 tid=-1858880712
+[T]  END  P5 T23 pid=28 ppid=26 tid=-1859167432
+[T]  END  P5 T19 pid=28 ppid=26 tid=-1858593992
+[T] BEGIN P5 T28 pid=28 ppid=26 tid=-1859884232
+[T] BEGIN P5 T25 pid=28 ppid=26 tid=-1859454152
+[T]  END  P5 T28 pid=28 ppid=26 tid=-1859884232
+[T] BEGIN P5 T27 pid=28 ppid=26 tid=-1859740872
+[T] BEGIN P5 T26 pid=28 ppid=26 tid=-1859597512
+[T]  END  P5 T24 pid=28 ppid=26 tid=-1859310792
+[T] BEGIN P5 T30 pid=28 ppid=26 tid=-1860170952
+[T]  END  P5 T25 pid=28 ppid=26 tid=-1859454152
+[T]  END  P5 T27 pid=28 ppid=26 tid=-1859740872
+[T] BEGIN P5 T29 pid=28 ppid=26 tid=-1860027592
+[T]  END  P5 T26 pid=28 ppid=26 tid=-1859597512
+[T]  END  P5 T30 pid=28 ppid=26 tid=-1860170952
+[T] BEGIN P5 T31 pid=28 ppid=26 tid=-1860314312
+[T] BEGIN P5 T32 pid=28 ppid=26 tid=-1860457672
+[T] BEGIN P5 T33 pid=28 ppid=26 tid=-1860601032
+[T]  END  P5 T32 pid=28 ppid=26 tid=-1860457672
+[T] BEGIN P5 T34 pid=28 ppid=26 tid=-1860744392
+[T]  END  P5 T31 pid=28 ppid=26 tid=-1860314312
+[T]  END  P5 T34 pid=28 ppid=26 tid=-1860744392
+[T]  END  P5 T29 pid=28 ppid=26 tid=-1860027592
+[T]  END  P5 T33 pid=28 ppid=26 tid=-1860601032
+[T] BEGIN P5 T36 pid=28 ppid=26 tid=-1861031112
+[T] BEGIN P5 T35 pid=28 ppid=26 tid=-1860887752
+[T] BEGIN P5 T37 pid=28 ppid=26 tid=-1861174472
+[T] BEGIN P5 T38 pid=28 ppid=26 tid=-1861317832
+[T] BEGIN P5 T39 pid=28 ppid=26 tid=-1861461192
+[T] BEGIN P5 T40 pid=28 ppid=26 tid=-1861604552
+[T]  END  P5 T36 pid=28 ppid=26 tid=-1861031112
+[T]  END  P5 T35 pid=28 ppid=26 tid=-1860887752
+[T]  END  P5 T38 pid=28 ppid=26 tid=-1861317832
+[T]  END  P5 T37 pid=28 ppid=26 tid=-1861174472
+[T]  END  P5 T39 pid=28 ppid=26 tid=-1861461192
+[T]  END  P5 T40 pid=28 ppid=26 tid=-1861604552
+[T] BEGIN P5 T45 pid=28 ppid=26 tid=-1862321352
+[T] BEGIN P5 T42 pid=28 ppid=26 tid=-1861891272
+[T] BEGIN P5 T43 pid=28 ppid=26 tid=-1862034632
+[T]  END  P5 T42 pid=28 ppid=26 tid=-1861891272
+[T] BEGIN P5 T41 pid=28 ppid=26 tid=-1861747912
+[T]  END  P5 T45 pid=28 ppid=26 tid=-1862321352
+[T] BEGIN P5 T46 pid=28 ppid=26 tid=-1862464712
+[T] BEGIN P5 T44 pid=28 ppid=26 tid=-1862177992
+[T]  END  P5 T43 pid=28 ppid=26 tid=-1862034632
+[T]  END  P5 T44 pid=28 ppid=26 tid=-1862177992
+[T] BEGIN P5 T6 pid=28 ppid=26 tid=-1856873672
+[T] BEGIN P5 T47 pid=28 ppid=26 tid=-1862608072
+[T]  END  P5 T46 pid=28 ppid=26 tid=-1862464712
+[T]  END  P5 T41 pid=28 ppid=26 tid=-1861747912
+[T]  END  P5 T6 pid=28 ppid=26 tid=-1856873672
+[T]  END  P5 T47 pid=28 ppid=26 tid=-1862608072
+[T]  END  P5 T0 pid=28 ppid=26 tid=-1855370424
+[T] BEGIN P2 T0 pid=23 ppid=22 tid=-1855370424
+[T] BEGIN P3 T0 pid=26 ppid=23 tid=-1855370424
+BEGIN P3T3_WAIT
+[T] BEGIN P3 T1 pid=26 ppid=23 tid=-1856009416
+[T] BEGIN P3 T4 pid=26 ppid=23 tid=-1856439496
+[T]  END  P3 T1 pid=26 ppid=23 tid=-1856009416
+[T] BEGIN P3 T2 pid=26 ppid=23 tid=-1856152776
+[T] BEGIN P3 T5 pid=26 ppid=23 tid=-1856582856
+[T]  END  P3 T2 pid=26 ppid=23 tid=-1856152776
+[T]  END  P3 T5 pid=26 ppid=23 tid=-1856582856
+END P3T3_WAIT
+[T]  END  P3 T4 pid=26 ppid=23 tid=-1856439496
+[T] BEGIN P3 T3 pid=26 ppid=23 tid=-1856296136
+[T]  END  P3 T3 pid=26 ppid=23 tid=-1856296136
+P3T3 POST
+[T]  END  P3 T0 pid=26 ppid=23 tid=-1855370424
+[T] BEGIN P2 T0 pid=23 ppid=22 tid=-1855370424
+[T]  END  P2 T0 pid=23 ppid=22 tid=-1855370424
+[T]  END  P1 T0 pid=22 ppid=7 tid=-1855370424
+[T] BEGIN P1 T0 pid=89 ppid=7 tid=-807023800
+[T] BEGIN P2 T0 pid=90 ppid=89 tid=-807023800
+[T] BEGIN P3 T0 pid=93 ppid=90 tid=-807023800
+[T] BEGIN P5 T0 pid=95 ppid=93 tid=-807023800
+[T] BEGIN P5 T12 pid=95 ppid=93 tid=-807662792
+[T] BEGIN P5 T2 pid=95 ppid=93 tid=-807949512
+[T] BEGIN P5 T1 pid=95 ppid=93 tid=-807806152
+[T] BEGIN P5 T3 pid=95 ppid=93 tid=-808101064
+[T] BEGIN P5 T4 pid=95 ppid=93 tid=-808244424
+[T] BEGIN P5 T5 pid=95 ppid=93 tid=-808387784
+[T]  END  P5 T2 pid=95 ppid=93 tid=-807949512
+[T]  END  P5 T1 pid=95 ppid=93 tid=-807806152
+[T]  END  P5 T3 pid=95 ppid=93 tid=-808101064
+[T]  END  P5 T5 pid=95 ppid=93 tid=-808387784
+[T]  END  P5 T4 pid=95 ppid=93 tid=-808244424
+[T] BEGIN P5 T10 pid=95 ppid=93 tid=-809104584
+[T] BEGIN P5 T7 pid=95 ppid=93 tid=-808674504
+[T] BEGIN P5 T8 pid=95 ppid=93 tid=-808817864
+[T] BEGIN P5 T9 pid=95 ppid=93 tid=-808961224
+[T] BEGIN P5 T6 pid=95 ppid=93 tid=-808531144
+[T]  END  P5 T10 pid=95 ppid=93 tid=-809104584
+[T]  END  P5 T7 pid=95 ppid=93 tid=-808674504
+[T] BEGIN P5 T11 pid=95 ppid=93 tid=-809247944
+[T]  END  P5 T8 pid=95 ppid=93 tid=-808817864
+[T]  END  P5 T6 pid=95 ppid=93 tid=-808531144
+[T]  END  P5 T9 pid=95 ppid=93 tid=-808961224
+[T]  END  P5 T11 pid=95 ppid=93 tid=-809247944
+[T] BEGIN P5 T13 pid=95 ppid=93 tid=-809391304
+[T] BEGIN P5 T14 pid=95 ppid=93 tid=-809534664
+[T] BEGIN P5 T15 pid=95 ppid=93 tid=-809678024
+[T] BEGIN P5 T16 pid=95 ppid=93 tid=-809821384
+[T]  END  P5 T13 pid=95 ppid=93 tid=-809391304
+[T] BEGIN P5 T17 pid=95 ppid=93 tid=-809964744
+[T]  END  P5 T14 pid=95 ppid=93 tid=-809534664
+[T]  END  P5 T15 pid=95 ppid=93 tid=-809678024
+[T]  END  P5 T16 pid=95 ppid=93 tid=-809821384
+[T] BEGIN P5 T18 pid=95 ppid=93 tid=-810108104
+[T] BEGIN P5 T19 pid=95 ppid=93 tid=-810251464
+[T]  END  P5 T17 pid=95 ppid=93 tid=-809964744
+[T] BEGIN P5 T20 pid=95 ppid=93 tid=-810394824
+[T] BEGIN P5 T21 pid=95 ppid=93 tid=-810538184
+[T]  END  P5 T18 pid=95 ppid=93 tid=-810108104
+[T]  END  P5 T19 pid=95 ppid=93 tid=-810251464
+[T] BEGIN P5 T22 pid=95 ppid=93 tid=-810681544
+[T]  END  P5 T20 pid=95 ppid=93 tid=-810394824
+[T]  END  P5 T21 pid=95 ppid=93 tid=-810538184
+[T] BEGIN P5 T23 pid=95 ppid=93 tid=-810824904
+[T] BEGIN P5 T24 pid=95 ppid=93 tid=-810968264
+[T]  END  P5 T22 pid=95 ppid=93 tid=-810681544
+[T] BEGIN P5 T25 pid=95 ppid=93 tid=-811111624
+[T] BEGIN P5 T27 pid=95 ppid=93 tid=-811398344
+[T]  END  P5 T23 pid=95 ppid=93 tid=-810824904
+[T]  END  P5 T27 pid=95 ppid=93 tid=-811398344
+[T] BEGIN P5 T28 pid=95 ppid=93 tid=-811541704
+[T] BEGIN P5 T26 pid=95 ppid=93 tid=-811254984
+[T]  END  P5 T24 pid=95 ppid=93 tid=-810968264
+[T]  END  P5 T25 pid=95 ppid=93 tid=-811111624
+[T] BEGIN P5 T29 pid=95 ppid=93 tid=-811685064
+[T] BEGIN P5 T30 pid=95 ppid=93 tid=-811828424
+[T]  END  P5 T26 pid=95 ppid=93 tid=-811254984
+[T]  END  P5 T28 pid=95 ppid=93 tid=-811541704
+[T] BEGIN P5 T31 pid=95 ppid=93 tid=-811971784
+[T]  END  P5 T29 pid=95 ppid=93 tid=-811685064
+[T]  END  P5 T30 pid=95 ppid=93 tid=-811828424
+[T] BEGIN P5 T32 pid=95 ppid=93 tid=-812115144
+[T] BEGIN P5 T36 pid=95 ppid=93 tid=-812688584
+[T]  END  P5 T31 pid=95 ppid=93 tid=-811971784
+[T] BEGIN P5 T35 pid=95 ppid=93 tid=-812545224
+[T] BEGIN P5 T33 pid=95 ppid=93 tid=-812258504
+[T]  END  P5 T36 pid=95 ppid=93 tid=-812688584
+[T]  END  P5 T32 pid=95 ppid=93 tid=-812115144
+[T] BEGIN P5 T34 pid=95 ppid=93 tid=-812401864
+[T]  END  P5 T35 pid=95 ppid=93 tid=-812545224
+[T]  END  P5 T33 pid=95 ppid=93 tid=-812258504
+[T] BEGIN P5 T37 pid=95 ppid=93 tid=-812831944
+[T]  END  P5 T34 pid=95 ppid=93 tid=-812401864
+[T] BEGIN P5 T38 pid=95 ppid=93 tid=-812975304
+[T] BEGIN P5 T40 pid=95 ppid=93 tid=-813262024
+[T] BEGIN P5 T39 pid=95 ppid=93 tid=-813118664
+[T]  END  P5 T37 pid=95 ppid=93 tid=-812831944
+[T]  END  P5 T38 pid=95 ppid=93 tid=-812975304
+[T] BEGIN P5 T41 pid=95 ppid=93 tid=-813405384
+[T]  END  P5 T40 pid=95 ppid=93 tid=-813262024
+[T]  END  P5 T39 pid=95 ppid=93 tid=-813118664
+[T] BEGIN P5 T42 pid=95 ppid=93 tid=-813548744
+[T] BEGIN P5 T46 pid=95 ppid=93 tid=-814122184
+[T]  END  P5 T41 pid=95 ppid=93 tid=-813405384
+[T] BEGIN P5 T44 pid=95 ppid=93 tid=-813835464
+[T] BEGIN P5 T43 pid=95 ppid=93 tid=-[T] BEGIN P7 T0 pid=92 ppid=89 tid=-807023800
+[T]  END  P7 T0 pid=92 ppid=89 tid=-807023800
+[T] BEGIN P6 T0 pid=91 ppid=89 tid=-807023800
+[T]  END  P6 T0 pid=91 ppid=89 tid=-807023800
+[T] BEGIN P2 T0 pid=90 ppid=89 tid=-807023800
+[T] BEGIN P3 T0 pid=93 ppid=90 tid=-807023800
+[T] BEGIN P4 T0 pid=94 ppid=93 tid=-807023800
+[T] BEGIN P8 T0 pid=101 ppid=94 tid=-807023800
+[T]  END  P8 T0 pid=101 ppid=94 tid=-807023800
+[T] BEGIN P2 T0 pid=90 ppid=89 tid=-807023800
+[T] BEGIN P3 T0 pid=93 ppid=90 tid=-807023800
+[T] BEGIN P5 T0 pid=95 ppid=93 tid=-807023800
+[T] BEGIN P9 T0 pid=107 ppid=95 tid=-807023800
+[T]  END  P9 T0 pid=107 ppid=95 tid=-807023800
+[T] BEGIN P2 T0 pid=90 ppid=89 tid=-807023800
+[T] BEGIN P3 T0 pid=93 ppid=90 tid=-807023800
+[T] BEGIN P4 T0 pid=94 ppid=93 tid=-807023800
+BEGIN P4T4_WAIT
+[T] BEGIN P4 T1 pid=94 ppid=93 tid=-807662792
+[T] BEGIN P4 T5 pid=94 ppid=93 tid=-808248520
+[T] BEGIN P4 T3 pid=94 ppid=93 tid=-807949512
+[T] BEGIN P4 T2 pid=94 ppid=93 tid=-807806152
+[T]  END  P4 T1 pid=94 ppid=93 tid=-807662792
+[T]  END  P4 T5 pid=94 ppid=93 tid=-808248520
+POST P4T1
+[T]  END  P4 T3 pid=94 ppid=93 tid=-807949512
+[T]  END  P4 T2 pid=94 ppid=93 tid=-807806152
+END P4T4_WAIT
+[T] BEGIN P4 T4 pid=94 ppid=93 tid=-808092872
+[T]  END  P4 T4 pid=94 ppid=93 tid=-808092872
+[T]  END  P4 T0 pid=94 ppid=93 tid=-807023800
+813692104
+[T] BEGIN P5 T45 pid=95 ppid=93 tid=-813978824
+[T]  END  P5 T46 pid=95 ppid=93 tid=-814122184
+[T]  END  P5 T45 pid=95 ppid=93 tid=-813978824
+[T]  END  P5 T42 pid=95 ppid=93 tid=-813548744
+[T]  END  P5 T43 pid=95 ppid=93 tid=-813692104
+[T]  END  P5 T44 pid=95 ppid=93 tid=-813835464
+[T] BEGIN P5 T47 pid=95 ppid=93 tid=-814265544
+[T]  END  P5 T47 pid=95 ppid=93 tid=-814265544
+[T]  END  P5 T12 pid=95 ppid=93 tid=-807662792
+[T]  END  P5 T0 pid=95 ppid=93 tid=-807023800
+[T] BEGIN P2 T0 pid=90 ppid=89 tid=-807023800
+[T] BEGIN P3 T0 pid=93 ppid=90 tid=-807023800
+BEGIN P3T3_WAIT
+[T] BEGIN P3 T4 pid=93 ppid=90 tid=-808092872
+[T] BEGIN P3 T1 pid=93 ppid=90 tid=-807662792
+[T] BEGIN P3 T5 pid=93 ppid=90 tid=-808236232
+[T] BEGIN P3 T2 pid=93 ppid=90 tid=-807806152
+[T]  END  P3 T5 pid=93 ppid=90 tid=-808236232
+[T]  END  P3 T1 pid=93 ppid=90 tid=-807662792
+END P3T3_WAIT
+[T] BEGIN P3 T3 pid=93 ppid=90 tid=-807949512
+[T]  END  P3 T3 pid=93 ppid=90 tid=-807949512
+P3T3 POST
+[T]  END  P3 T2 pid=93 ppid=90 tid=-807806152
+[T]  END  P3 T4 pid=93 ppid=90 tid=-808092872
+[T]  END  P3 T0 pid=93 ppid=90 tid=-807023800
+[T] BEGIN P2 T0 pid=90 ppid=89 tid=-807023800
+[T]  END  P2 T0 pid=90 ppid=89 tid=-807023800
+[T]  END  P1 T0 pid=89 ppid=7 tid=-807023800
+[T] BEGIN P1 T0 pid=156 ppid=7 tid=348728136
+[T] BEGIN P2 T0 pid=157 ppid=156 tid=348728136
+[T] BEGIN P3 T0 pid=160 ppid=157 tid=348728136
+[T] BEGIN P5 T0 pid=162 ppid=160 tid=348728136
+[T] BEGIN P5 T2 pid=162 ppid=160 tid=347802424
+[T] BEGIN P5 T12 pid=162 ppid=160 tid=348089144
+[T] BEGIN P5 T1 pid=162 ppid=160 tid=347945784
+[T] BEGIN P5 T3 pid=162 ppid=160 tid=347659064
+[T] BEGIN P5 T5 pid=162 ppid=160 tid=347372344
+[T]  END  P5 T12 pid=162 ppid=160 tid=348089144
+[T] BEGIN P5 T4 pid=162 ppid=160 tid=347515704
+[T] BEGIN P5 T6 pid=162 ppid=160 tid=347228984
+[T]  END  P5 T2 pid=162 ppid=160 tid=347802424
+[T] BEGIN P5 T7 pid=162 ppid=160 tid=347085624
+[T]  END  P5 T1 pid=162 ppid=160 tid=347945784
+[T]  END  P5 T3 pid=162 ppid=160 tid=347659064
+[T]  END  P5 T5 pid=162 ppid=160 tid=347372344
+[T] BEGIN P5 T8 pid=162 ppid=160 tid=346942264
+[T] BEGIN P5 T9 pid=162 ppid=160 tid=346798904
+[T] BEGIN P5 T10 pid=162 ppid=160 tid=346655544
+[T]  END  P5 T4 pid=162 ppid=160 tid=347515704
+[T] BEGIN P5 T11 pid=162 ppid=160 tid=346512184
+[T]  END  P5 T6 pid=162 ppid=160 tid=347228984
+[T] BEGIN P5 T13 pid=162 ppid=160 tid=346368824
+[T]  END  P5 T7 pid=162 ppid=160 tid=347085624
+[T] BEGIN P5 T14 pid=162 ppid=160 tid=346225464
+[T]  END  P5 T8 pid=162 ppid=160 tid=346942264
+[T]  END  P5 T9 pid=162 ppid=160 tid=346798904
+[T]  END  P5 T10 pid=162 ppid=160 tid=346655544
+[T] BEGIN P5 T15 pid=162 ppid=160 tid=346082104
+[T] BEGIN P5 T17 pid=162 ppid=160 tid=345795384
+[T] BEGIN P5 T16 pid=162 ppid=160 tid=345938744
+[T]  END  P5 T11 pid=162 ppid=160 tid=346512184
+[T] BEGIN P5 T18 pid=162 ppid=160 tid=345652024
+[T]  END  P5 T13 pid=162 ppid=160 tid=346368824
+[T] BEGIN P5 T19 pid=162 ppid=160 tid=345508664
+[T]  END  P5 T14 pid=162 ppid=160 tid=346225464
+[T] BEGIN P5 T20 pid=162 ppid=160 tid=345365304
+[T]  END  P5 T17 pid=162 ppid=160 tid=345795384
+[T]  END  P5 T15 pid=162 ppid=160 tid=346082104
+[T]  END  P5 T16 pid=162 ppid=160 tid=345938744
+[T] BEGIN P5 T21 pid=162 ppid=160 tid=345221944
+[T] BEGIN P5 T23 pid=162 ppid=160 tid=344935224
+[T] BEGIN P5 T22 pid=162 ppid=160 tid=345078584
+[T]  END  P5 T18 pid=162 ppid=160 tid=345652024
+[T] BEGIN P5 T24 pid=162 ppid=160 tid=344791864
+[T]  END  P5 T19 pid=162 ppid=160 tid=345508664
+[T] BEGIN P5 T25 pid=162 ppid=160 tid=344648504
+[T]  END  P5 T20 pid=162 ppid=160 tid=345365304
+[T] BEGIN P5 T26 pid=162 ppid=160 tid=344505144
+[T]  END  P5 T21 pid=162 ppid=160 tid=345221944
+[T]  END  P5 T22 pid=162 ppid=160 tid=345078584
+[T] BEGIN P5 T27 pid=162 ppid=160 tid=344361784
+[T]  END  P5 T23 pid=162 ppid=160 tid=344935224
+[T] BEGIN P5 T28 pid=162 ppid=160 tid=344218424
+[T] BEGIN P5 T29 pid=162 ppid=160 tid=344075064
+[T]  END  P5 T24 pid=162 ppid=160 tid=344791864
+[T] BEGIN P5 T30 pid=162 ppid=160 tid=343931704
+[T]  END  P5 T25 pid=162 ppid=160 tid=344648504
+[T] BEGIN P5 T31 pid=162 ppid=160 tid=343788344
+[T]  END  P5 T26 pid=162 ppid=160 tid=344505144
+[T]  END  P5 T27 pid=162 ppid=160 tid=344361784
+[T] BEGIN P5 T32 pid=162 ppid=160 tid=343644984
+[T]  END  P5 T28 pid=162 ppid=160 tid=344218424
+[T] BEGIN P5 T33 pid=162 ppid=160 tid=343501624
+[T]  END  P5 T29 pid=162 ppid=160 tid=344075064
+[T] BEGIN P5 T34 pid=162 ppid=160 tid=343358264
+[T] BEGIN P5 T35 pid=162 ppid=160 tid=343214904
+[T]  END  P5 T30 pid=162 ppid=160 tid=343931704
+[T]  END  P5 T31 pid=162 ppid=160 tid=343788344
+[T] BEGIN P5 T36 pid=162 ppid=160 tid=343071544
+[T] BEGIN P5 T37 pid=162 ppid=160 tid=342928184
+[T]  END  P5 T32 pid=162 ppid=160 tid=343644984
+[T]  END  P5 T33 pid=162 ppid=160 tid=343501624
+[T] BEGIN P5 T38 pid=162 ppid=160 tid=342784824
+[T] BEGIN P5 T39 pid=162 ppid=160 tid=342641464
+[T]  END  P5 T34 pid=162 ppid=160 tid=343358264
+[T]  END  P5 T35 pid=162 ppid=160 tid=343214904
+[T] BEGIN P5 T40 pid=162 ppid=160 tid=342498104
+[T] BEGIN P5 T41 pid=162 ppid=160 tid=342354744
+[T]  END  P5 T36 pid=162 ppid=160 tid=343071544
+[T]  END  P5 T37 pid=162 ppid=160 tid=342928184
+[T] BEGIN P5 T42 pid=162 ppid=160 tid=342211384
+[T] BEGIN P5 T43 pid=162 ppid=160 tid=342068024
+[T]  END  P5 T38 pid=162 ppid=160 tid=342784824
+[T]  END  P5 T39 pid=162 ppid=160 tid=342641464
+[T] BEGIN P5 T44 pid=162 ppid=160 tid=341924664[T] BEGIN P7 T0 pid=159 ppid=156 tid=348728136
+[T]  END  P7 T0 pid=159 ppid=156 tid=348728136
+[T] BEGIN P6 T0 pid=158 ppid=156 tid=348728136
+[T]  END  P6 T0 pid=158 ppid=156 tid=348728136
+[T] BEGIN P2 T0 pid=157 ppid=156 tid=348728136
+[T] BEGIN P3 T0 pid=160 ppid=157 tid=348728136
+[T] BEGIN P5 T0 pid=162 ppid=160 tid=348728136
+[T] BEGIN P9 T0 pid=168 ppid=162 tid=348728136
+[T]  END  P9 T0 pid=168 ppid=162 tid=348728136
+
+[T] BEGIN P5 T45 pid=162 ppid=160 tid=341781304
+[T]  END  P5 T40 pid=162 ppid=160 tid=342498104
+[T]  END  P5 T41 pid=162 ppid=160 tid=342354744
+[T] BEGIN P5 T46 pid=162 ppid=160 tid=341637944
+[T]  END  P5 T42 pid=162 ppid=160 tid=342211384
+[T] BEGIN P5 T47 pid=162 ppid=160 tid=341494584
+[T]  END  P5 T43 pid=162 ppid=160 tid=342068024
+[T]  END  P5 T44 pid=162 ppid=160 tid=341924664
+[T]  END  P5 T45 pid=162 ppid=160 tid=341781304
+[T]  END  P5 T46 pid=162 ppid=160 tid=341637944
+[T]  END  P5 T47 pid=162 ppid=160 tid=341494584
+[T]  END  P5 T0 pid=162 ppid=160 tid=348728136
+[T] BEGIN P2 T0 pid=157 ppid=156 tid=348728136
+[T] BEGIN P3 T0 pid=160 ppid=157 tid=348728136
+[T] BEGIN P4 T0 pid=161 ppid=160 tid=348728136
+[T] BEGIN P8 T0 pid=216 ppid=161 tid=348728136
+[T]  END  P8 T0 pid=216 ppid=161 tid=348728136
+[T] BEGIN P2 T0 pid=157 ppid=156 tid=348728136
+[T] BEGIN P3 T0 pid=160 ppid=157 tid=348728136
+[T] BEGIN P4 T0 pid=161 ppid=160 tid=348728136
+BEGIN P4T4_WAIT
+[T] BEGIN P4 T1 pid=161 ppid=160 tid=348089144
+[T] BEGIN P4 T2 pid=161 ppid=160 tid=347945784
+[T] BEGIN P4 T3 pid=161 ppid=160 tid=347802424
+[T] BEGIN P4 T5 pid=161 ppid=160 tid=347515704
+[T]  END  P4 T2 pid=161 ppid=160 tid=347945784
+[T]  END  P4 T3 pid=161 ppid=160 tid=347802424
+[T]  END  P4 T5 pid=161 ppid=160 tid=347515704
+[T]  END  P4 T1 pid=161 ppid=160 tid=348089144
+POST P4T1
+END P4T4_WAIT
+[T] BEGIN P4 T4 pid=161 ppid=160 tid=347659064
+[T]  END  P4 T4 pid=161 ppid=160 tid=347659064
+[T]  END  P4 T0 pid=161 ppid=160 tid=348728136
+[T] BEGIN P2 T0 pid=157 ppid=156 tid=348728136
+[T] BEGIN P3 T0 pid=160 ppid=157 tid=348728136
+BEGIN P3T3_WAIT
+[T] BEGIN P3 T1 pid=160 ppid=157 tid=348089144
+[T] BEGIN P3 T4 pid=160 ppid=157 tid=347659064
+[T] BEGIN P3 T5 pid=160 ppid=157 tid=347515704
+[T] BEGIN P3 T2 pid=160 ppid=157 tid=347945784
+[T]  END  P3 T1 pid=160 ppid=157 tid=348089144
+[T]  END  P3 T2 pid=160 ppid=157 tid=347945784
+[T]  END  P3 T5 pid=160 ppid=157 tid=347515704
+[T]  END  P3 T4 pid=160 ppid=157 tid=347659064
+END P3T3_WAIT
+[T] BEGIN P3 T3 pid=160 ppid=157 tid=347802424
+[T]  END  P3 T3 pid=160 ppid=157 tid=347802424
+P3T3 POST
+[T]  END  P3 T0 pid=160 ppid=157 tid=348728136
+[T] BEGIN P2 T0 pid=157 ppid=156 tid=348728136
+[T]  END  P2 T0 pid=157 ppid=156 tid=348728136
+[T]  END  P1 T0 pid=156 ppid=7 tid=348728136
+[T] BEGIN P1 T0 pid=223 ppid=7 tid=142596936
+[T] BEGIN P2 T0 pid=224 ppid=223 tid=142596936
+[T] BEGIN P3 T0 pid=227 ppid=224 tid=142596936
+[T] BEGIN P5 T0 pid=229 ppid=227 tid=142596936
+[T] BEGIN P5 T2 pid=229 ppid=227 tid=141671224
+[T] BEGIN P5 T1 pid=229 ppid=227 tid=141814584
+[T] BEGIN P5 T3 pid=229 ppid=227 tid=141527864
+[T] BEGIN P5 T4 pid=229 ppid=227 tid=141384504
+[T] BEGIN P5 T5 pid=229 ppid=227 tid=141241144
+[T] BEGIN P5 T6 pid=229 ppid=227 tid=141097784
+[T]  END  P5 T6 pid=229 ppid=227 tid=141097784
+[T]  END  P5 T2 pid=229 ppid=227 tid=141671224
+[T]  END  P5 T3 pid=229 ppid=227 tid=141527864
+[T]  END  P5 T1 pid=229 ppid=227 tid=141814584
+[T]  END  P5 T4 pid=229 ppid=227 tid=141384504
+[T]  END  P5 T5 pid=229 ppid=227 tid=141241144
+[T] BEGIN P5 T7 pid=229 ppid=227 tid=140954424
+[T] BEGIN P5 T8 pid=229 ppid=227 tid=140811064
+[T] BEGIN P5 T9 pid=229 ppid=227 tid=140667704
+[T] BEGIN P5 T10 pid=229 ppid=227 tid=140524344
+[T] BEGIN P5 T11 pid=229 ppid=227 tid=140380984
+[T] BEGIN P5 T13 pid=229 ppid=227 tid=140237624
+[T]  END  P5 T7 pid=229 ppid=227 tid=140954424
+[T]  END  P5 T8 pid=229 ppid=227 tid=140811064
+[T]  END  P5 T9 pid=229 ppid=227 tid=140667704
+[T]  END  P5 T10 pid=229 ppid=227 tid=140524344
+[T]  END  P5 T11 pid=229 ppid=227 tid=140380984
+[T] BEGIN P5 T17 pid=229 ppid=227 tid=139664184
+[T] BEGIN P5 T14 pid=229 ppid=227 tid=140094264
+[T] BEGIN P5 T16 pid=229 ppid=227 tid=139807544
+[T] BEGIN P5 T15 pid=229 ppid=227 tid=139950904
+[T]  END  P5 T13 pid=229 ppid=227 tid=140237624
+[T] BEGIN P5 T18 pid=229 ppid=227 tid=139520824
+[T] BEGIN P5 T19 pid=229 ppid=227 tid=139377464
+[T]  END  P5 T14 pid=229 ppid=227 tid=140094264
+[T]  END  P5 T16 pid=229 ppid=227 tid=139807544
+[T]  END  P5 T15 pid=229 ppid=227 tid=139950904
+[T]  END  P5 T17 pid=229 ppid=227 tid=139664184
+[T]  END  P5 T18 pid=229 ppid=227 tid=139520824
+[T]  END  P5 T19 pid=229 ppid=227 tid=139377464
+[T] BEGIN P5 T20 pid=229 ppid=227 tid=139234104
+[T] BEGIN P5 T21 pid=229 ppid=227 tid=139090744
+[T] BEGIN P5 T22 pid=229 ppid=227 tid=138947384
+[T] BEGIN P5 T23 pid=229 ppid=227 tid=138804024
+[T] BEGIN P5 T24 pid=229 ppid=227 tid=138660664
+[T] BEGIN P5 T25 pid=229 ppid=227 tid=138517304
+[T]  END  P5 T20 pid=229 ppid=227 tid=139234104
+[T]  END  P5 T21 pid=229 ppid=227 tid=139090744
+[T]  END  P5 T23 pid=229 ppid=227 tid=138804024
+[T]  END  P5 T22 pid=229 ppid=227 tid=138947384
+[T]  END  P5 T24 pid=229 ppid=227 tid=138660664
+[T] BEGIN P5 T27 pid=229 ppid=227 tid=138230584
+[T] BEGIN P5 T26 pid=229 ppid=227 tid=138373944
+[T]  END  P5 T25 pid=229 ppid=227 tid=138517304
+[T] BEGIN P5 T28 pid=229 ppid=227 tid=138087224
+[T]  END  P5 T28 pid=229 ppid=227 tid=138087224
+[T] BEGIN P5 T30 pid=229 ppid=227 tid=137800504
+[T]  END  P5 T27 pid=229 ppid=227 tid=138230584
+[T]  END  P5 T26 pid=229 ppid=227 tid=138373944
+[T] BEGIN P5 T31 pid=229 ppid=227 tid=137657144
+[T] BEGIN P5 T29 pid=229 ppid=227 tid=137943864
+[T] BEGIN P5 T32 pid=229 ppid=227 tid=137513784
+[T]  END  P5 T30 pid=229 ppid=227 tid=137800504
+[T] BEGIN P5 T33 pid=229 ppid=227 tid=137370424
+[T]  END  P5 T31 pid=229 ppid=227 tid=137657144
+[T] BEGIN P5 T34 pid=229 ppid=227 tid=137227064
+[T]  END  P5 T29 pid=229 ppid=227 tid=137943864
+[T]  END  P5 T32 pid=229 ppid=227 tid=137513784
+[T] BEGIN P5 T37 pid=229 ppid=227 tid=136796984
+[T]  END  P5 T33 pid=229 ppid=227 tid=137370424
+[T]  END  P5 T34 pid=229 ppid=227 tid=137227064
+[T] BEGIN P5 T38 pid=229 ppid=227 tid=136653624
+[T] BEGIN P5 T35 pid=229 ppid=227 tid=137083704
+[T]  END  P5 T37 pid=229 ppid=227 tid=136796984
+[T] BEGIN P5 T39 pid=229 ppid=227 tid=136510264
+[T] BEGIN P5 T36 pid=229 ppid=227 tid=136940344
+[T]  END  P5 T35 pid=229 ppid=227 tid=137083704
+[T] BEGIN P5 T40 pid=229 ppid=227 tid=136366904
+[T]  END  P5 T38 pid=229 ppid=227 tid=136653624
+[T]  END  P5 T39 pid=229 ppid=227 tid=136510264
+[T] BEGIN P5 T41 pid=229 ppid=227 tid=136223544
+[T]  END  P5 T36 pid=229 ppid=227 tid=136940344
+[T] BEGIN P5 T42 pid=229 ppid=227 tid=136080184
+[T] BEGIN P5 T45 pid=229 ppid=227 tid=135650104
+[T] BEGIN P5 T43 pid=229 ppid=227 tid=135936824
+[T]  END  P5 T41 pid=229 ppid=227 tid=136223544
+[T] BEGIN P5 T44 pid=229 ppid=227 tid=135793464[T] BEGIN P7 T0 pid=226 ppid=223 tid=142596936
+[T]  END  P7 T0 pid=226 ppid=223 tid=142596936
+[T] BEGIN P6 T0 pid=225 ppid=223 tid=142596936
+[T]  END  P6 T0 pid=225 ppid=223 tid=142596936
+[T] BEGIN P2 T0 pid=224 ppid=223 tid=142596936
+[T] BEGIN P3 T0 pid=227 ppid=224 tid=142596936
+[T] BEGIN P4 T0 pid=228 ppid=227 tid=142596936
+[T] BEGIN P8 T0 pid=235 ppid=228 tid=142596936
+[T]  END  P8 T0 pid=235 ppid=228 tid=142596936
+[T] BEGIN P2 T0 pid=224 ppid=223 tid=142596936
+[T] BEGIN P3 T0 pid=227 ppid=224 tid=142596936
+[T] BEGIN P5 T0 pid=229 ppid=227 tid=142596936
+[T] BEGIN P9 T0 pid=238 ppid=229 tid=142596936
+[T]  END  P9 T0 pid=238 ppid=229 tid=142596936
+
+[T]  END  P5 T40 pid=229 ppid=227 tid=136366904
+[T]  END  P5 T45 pid=229 ppid=227 tid=135650104
+[T]  END  P5 T42 pid=229 ppid=227 tid=136080184
+[T]  END  P5 T43 pid=229 ppid=227 tid=135936824
+[T] BEGIN P5 T46 pid=229 ppid=227 tid=135506744
+[T]  END  P5 T44 pid=229 ppid=227 tid=135793464
+[T] BEGIN P5 T47 pid=229 ppid=227 tid=135363384
+[T] BEGIN P5 T12 pid=229 ppid=227 tid=141957944
+[T]  END  P5 T47 pid=229 ppid=227 tid=135363384
+[T]  END  P5 T46 pid=229 ppid=227 tid=135506744
+[T]  END  P5 T12 pid=229 ppid=227 tid=141957944
+[T]  END  P5 T0 pid=229 ppid=227 tid=142596936
+[T] BEGIN P2 T0 pid=224 ppid=223 tid=142596936
+[T] BEGIN P3 T0 pid=227 ppid=224 tid=142596936
+[T] BEGIN P4 T0 pid=228 ppid=227 tid=142596936
+BEGIN P4T4_WAIT
+[T] BEGIN P4 T1 pid=228 ppid=227 tid=141957944
+[T] BEGIN P4 T2 pid=228 ppid=227 tid=141814584
+[T] BEGIN P4 T5 pid=228 ppid=227 tid=141384504
+[T] BEGIN P4 T3 pid=228 ppid=227 tid=141671224
+[T]  END  P4 T2 pid=228 ppid=227 tid=141814584
+[T]  END  P4 T5 pid=228 ppid=227 tid=141384504
+[T]  END  P4 T3 pid=228 ppid=227 tid=141671224
+[T]  END  P4 T1 pid=228 ppid=227 tid=141957944
+POST P4T1
+END P4T4_WAIT
+[T] BEGIN P4 T4 pid=228 ppid=227 tid=141527864
+[T]  END  P4 T4 pid=228 ppid=227 tid=141527864
+[T]  END  P4 T0 pid=228 ppid=227 tid=142596936
+[T] BEGIN P2 T0 pid=224 ppid=223 tid=142596936
+[T] BEGIN P3 T0 pid=227 ppid=224 tid=142596936
+BEGIN P3T3_WAIT
+[T] BEGIN P3 T1 pid=227 ppid=224 tid=141957944
+[T] BEGIN P3 T4 pid=227 ppid=224 tid=141527864
+[T] BEGIN P3 T5 pid=227 ppid=224 tid=141384504
+[T]  END  P3 T1 pid=227 ppid=224 tid=141957944
+[T] BEGIN P3 T2 pid=227 ppid=224 tid=141814584
+[T]  END  P3 T5 pid=227 ppid=224 tid=141384504
+END P3T3_WAIT
+[T] BEGIN P3 T3 pid=227 ppid=224 tid=141671224
+[T]  END  P3 T2 pid=227 ppid=224 tid=141814584
+[T]  END  P3 T4 pid=227 ppid=224 tid=141527864
+[T]  END  P3 T3 pid=227 ppid=224 tid=141671224
+P3T3 POST
+[T]  END  P3 T0 pid=227 ppid=224 tid=142596936
+[T] BEGIN P2 T0 pid=224 ppid=223 tid=142596936
+[T]  END  P2 T0 pid=224 ppid=223 tid=142596936
+[T]  END  P1 T0 pid=223 ppid=7 tid=142596936
+[T] BEGIN P1 T0 pid=290 ppid=7 tid=-1163338936
+[T] BEGIN P6 T0 pid=292 ppid=290 tid=-1163338936
+[T]  END  P6 T0 pid=292 ppid=290 tid=-1163338936
+[T] BEGIN P7 T0 pid=293 ppid=290 tid=-1163338936
+[T]  END  P7 T0 pid=293 ppid=290 tid=-1163338936
+[T] BEGIN P2 T0 pid=291 ppid=290 tid=-1163338936
+[T] BEGIN P3 T0 pid=294 ppid=291 tid=-1163338936
+[T] BEGIN P4 T0 pid=295 ppid=294 tid=-1163338936
+[T] BEGIN P8 T0 pid=302 ppid=295 tid=-1163338936
+[T]  END  P8 T0 pid=302 ppid=295 tid=-1163338936
+[T] BEGIN P2 T0 pid=291 ppid=290 tid=-1163338936
+[T] BEGIN P3 T0 pid=294 ppid=291 tid=-1163338936
+[T] BEGIN P5 T0 pid=296 ppid=294 tid=-1163338936
+[T] BEGIN P9 T0 pid=308 ppid=296 tid=-1163338936
+[T]  END  P9 T0 pid=308 ppid=296 tid=-1163338936
+[T] BEGIN P2 T0 pid=291 ppid=290 tid=-1163338936
+[T] BEGIN P3 T0 pid=294 ppid=291 tid=-1163338936
+[T] BEGIN P4 T0 pid=295 ppid=294 tid=-1163338936
+BEGIN P4T4_WAIT
+[T] BEGIN P4 T5 pid=295 ppid=294 tid=-1164551368
+[T] BEGIN P4 T1 pid=295 ppid=294 tid=-1163977928
+[T] BEGIN P4 T2 pid=295 ppid=294 tid=-1164121288
+[T] BEGIN P4 T3 pid=295 ppid=294 tid=-1164264648
+[T]  END  P4 T3 pid=295 ppid=294 tid=-1164264648
+[T]  END  P4 T1 pid=295 ppid=294 tid=-1163977928
+POST P4T1
+[T]  END  P4 T2 pid=295 ppid=294 tid=-1164121288
+[T]  END  P4 T5 pid=295 ppid=294 tid=-1164551368
+END P4T4_WAIT
+[T] BEGIN P4 T4 pid=295 ppid=294 tid=-1164408008
+[T]  END  P4 T4 pid=295 ppid=294 tid=-1164408008
+[T]  END  P4 T0 pid=295 ppid=294 tid=-1163338936
+[T] BEGIN P2 T0 pid=291 ppid=290 tid=-1163338936
+[T] BEGIN P3 T0 pid=294 ppid=291 tid=-1163338936
+[T] BEGIN P5 T0 pid=296 ppid=294 tid=-1163338936
+[T] BEGIN P5 T12 pid=296 ppid=294 tid=-1163977928
+[T] BEGIN P5 T1 pid=296 ppid=294 tid=-1164121288
+[T] BEGIN P5 T2 pid=296 ppid=294 tid=-1164264648
+[T] BEGIN P5 T3 pid=296 ppid=294 tid=-1164416200
+[T] BEGIN P5 T4 pid=296 ppid=294 tid=-1164559560
+[T] BEGIN P5 T5 pid=296 ppid=294 tid=-1164702920
+[T]  END  P5 T12 pid=296 ppid=294 tid=-1163977928
+[T]  END  P5 T1 pid=296 ppid=294 tid=-1164121288
+[T]  END  P5 T2 pid=296 ppid=294 tid=-1164264648
+[T] BEGIN P5 T6 pid=296 ppid=294 tid=-1164846280
+[T]  END  P5 T4 pid=296 ppid=294 tid=-1164559560
+[T] BEGIN P5 T8 pid=296 ppid=294 tid=-1165133000
+[T] BEGIN P5 T9 pid=296 ppid=294 tid=-1165276360
+[T]  END  P5 T5 pid=296 ppid=294 tid=-1164702920
+[T]  END  P5 T3 pid=296 ppid=294 tid=-1164416200
+[T] BEGIN P5 T7 pid=296 ppid=294 tid=-1164989640
+[T] BEGIN P5 T11 pid=296 ppid=294 tid=-1165563080
+[T] BEGIN P5 T10 pid=296 ppid=294 tid=-1165419720
+[T]  END  P5 T6 pid=296 ppid=294 tid=-1164846280
+[T]  END  P5 T9 pid=296 ppid=294 tid=-1165276360
+[T]  END  P5 T8 pid=296 ppid=294 tid=-1165133000
+[T] BEGIN P5 T14 pid=296 ppid=294 tid=-1165849800
+[T] BEGIN P5 T13 pid=296 ppid=294 tid=-1165706440
+[T] BEGIN P5 T15 pid=296 ppid=294 tid=-1165993160
+[T]  END  P5 T7 pid=296 ppid=294 tid=-1164989640
+[T]  END  P5 T11 pid=296 ppid=294 tid=-1165563080
+[T]  END  P5 T10 pid=296 ppid=294 tid=-1165419720
+[T] BEGIN P5 T16 pid=296 ppid=294 tid=-1166136520
+[T] BEGIN P5 T19 pid=296 ppid=294 tid=-1166566600
+[T] BEGIN P5 T18 pid=296 ppid=294 tid=-1166423240
+[T]  END  P5 T14 pid=296 ppid=294 tid=-1165849800
+[T]  END  P5 T15 pid=296 ppid=294 tid=-1165993160
+[T]  END  P5 T13 pid=296 ppid=294 tid=-1165706440
+[T] BEGIN P5 T17 pid=296 ppid=294 tid=-1166279880
+[T]  END  P5 T16 pid=296 ppid=294 tid=-1166136520
+[T] BEGIN P5 T21 pid=296 ppid=294 tid=-1166853320
+[T] BEGIN P5 T20 pid=296 ppid=294 tid=-1166709960
+[T] BEGIN P5 T22 pid=296 ppid=294 tid=-1166996680
+[T]  END  P5 T19 pid=296 ppid=294 tid=-1166566600
+[T]  END  P5 T18 pid=296 ppid=294 tid=-1166423240
+[T] BEGIN P5 T23 pid=296 ppid=294 tid=-1167140040
+[T] BEGIN P5 T24 pid=296 ppid=294 tid=-1167283400
+[T]  END  P5 T17 pid=296 ppid=294 tid=-1166279880
+[T] BEGIN P5 T25 pid=296 ppid=294 tid=-1167426760
+[T]  END  P5 T22 pid=296 ppid=294 tid=-1166996680
+[T]  END  P5 T20 pid=296 ppid=294 tid=-1166709960
+[T]  END  P5 T21 pid=296 ppid=294 tid=-1166853320
+[T] BEGIN P5 T26 pid=296 ppid=294 tid=-1167570120
+[T]  END  P5 T23 pid=296 ppid=294 tid=-1167140040
+[T]  END  P5 T24 pid=296 ppid=294 tid=-1167283400
+[T] BEGIN P5 T29 pid=296 ppid=294 tid=-1168000200
+[T] BEGIN P5 T28 pid=296 ppid=294 tid=-1167856840
+[T] BEGIN P5 T27 pid=296 ppid=294 tid=-1167713480
+[T] BEGIN P5 T30 pid=296 ppid=294 tid=-1168143560
+[T]  END  P5 T25 pid=296 ppid=294 tid=-1167426760
+[T] BEGIN P5 T31 pid=296 ppid=294 tid=-1168286920
+[T]  END  P5 T26 pid=296 ppid=294 tid=-1167570120
+[T] BEGIN P5 T32 pid=296 ppid=294 tid=-1168430280
+[T]  END  P5 T29 pid=296 ppid=294 tid=-1168000200
+[T] BEGIN P5 T33 pid=296 ppid=294 tid=-1168573640
+[T]  END  P5 T28 pid=296 ppid=294 tid=-1167856840
+[T] BEGIN P5 T35 pid=296 ppid=294 tid=-1168860360
+[T]  END  P5 T27 pid=296 ppid=294 tid=-1167713480
+[T]  END  P5 T30 pid=296 ppid=294 tid=-1168143560
+[T] BEGIN P5 T34 pid=296 ppid=294 tid=-1168717000
+[T] BEGIN P5 T36 pid=296 ppid=294 tid=-1169003720
+[T]  END  P5 T31 pid=296 ppid=294 tid=-1168286920
+[T] BEGIN P5 T37 pid=296 ppid=294 tid=-1169147080
+[T]  END  P5 T32 pid=296 ppid=294 tid=-1168430280
+[T]  END  P5 T33 pid=296 ppid=294 tid=-1168573640
+[T] BEGIN P5 T38 pid=296 ppid=294 tid=-1169290440
+[T]  END  P5 T35 pid=296 ppid=294 tid=-1168860360
+[T] BEGIN P5 T39 pid=296 ppid=294 tid=-1169433800
+[T] BEGIN P5 T40 pid=296 ppid=294 tid=-1169577160
+[T]  END  P5 T34 pid=296 ppid=294 tid=-1168717000
+[T]  END  P5 T36 pid=296 ppid=294 tid=-1169003720
+[T] BEGIN P5 T42 pid=296 ppid=294 tid=-1169863880
+[T] BEGIN P5 T41 pid=296 ppid=294 tid=-1169720520
+[T]  END  P5 T37 pid=296 ppid=294 tid=-1169147080
+[T] BEGIN P5 T43 pid=296 ppid=294 tid=-1170007240
+[T]  END  P5 T38 pid=296 ppid=294 tid=-1169290440
+[T] BEGIN P5 T44 pid=296 ppid=294 tid=-1170150600
+[T]  END  P5 T39 pid=296 ppid=294 tid=-1169433800
+[T]  END  P5 T40 pid=296 ppid=294 tid=-1169577160
+[T] BEGIN P5 T45 pid=296 ppid=294 tid=-1170293960
+[T] BEGIN P5 T46 pid=296 ppid=294 tid=-1170437320
+[T]  END  P5 T41 pid=296 ppid=294 tid=-1169720520
+[T]  END  P5 T42 pid=296 ppid=294 tid=-1169863880
+[T] BEGIN P5 T47 pid=296 ppid=294 tid=-1170580680
+[T]  END  P5 T43 pid=296 ppid=294 tid=-1170007240
+[T]  END  P5 T44 pid=296 ppid=294 tid=-1170150600
+[T]  END  P5 T45 pid=296 ppid=294 tid=-1170293960
+[T]  END  P5 T46 pid=296 ppid=294 tid=-1170437320
+[T]  END  P5 T47 pid=296 ppid=294 tid=-1170580680
+[T]  END  P5 T0 pid=296 ppid=294 tid=-1163338936
+[T] BEGIN P2 T0 pid=291 ppid=290 tid=-1163338936
+[T] BEGIN P3 T0 pid=294 ppid=291 tid=-1163338936
+BEGIN P3T3_WAIT
+[T] BEGIN P3 T4 pid=294 ppid=291 tid=-1164408008
+[T] BEGIN P3 T1 pid=294 ppid=291 tid=-1163977928
+[T] BEGIN P3 T5 pid=294 ppid=291 tid=-1164551368
+[T] BEGIN P3 T2 pid=294 ppid=291 tid=-1164121288
+[T]  END  P3 T1 pid=294 ppid=291 tid=-1163977928
+[T]  END  P3 T5 pid=294 ppid=291 tid=-1164551368
+[T]  END  P3 T2 pid=294 ppid=291 tid=-1164121288
+END P3T3_WAIT
+[T]  END  P3 T4 pid=294 ppid=291 tid=-1164408008
+[T] BEGIN P3 T3 pid=294 ppid=291 tid=-1164264648
+[T]  END  P3 T3 pid=294 ppid=291 tid=-1164264648
+P3T3 POST
+[T]  END  P3 T0 pid=294 ppid=291 tid=-1163338936
+[T] BEGIN P2 T0 pid=291 ppid=290 tid=-1163338936
+[T]  END  P2 T0 pid=291 ppid=290 tid=-1163338936
+[T]  END  P1 T0 pid=290 ppid=7 tid=-1163338936
+[1;35mTest 1...[0m
+	Checking process hierarchy...
+		[1;32mCORRECT        [0m [5 point(s)]
+	Checking threads from the same process...
+		[1;32mCORRECT        [0m [5 point(s)]
+	Checking threads barrier...
+		the following threads are running while ending thread T5.12: 12 3 4 5
+		[1;33mPARTIAL CORRECT[0m [2 point(s)]
+	Checking threads from different processes...
+		[1;32mCORRECT        [0m [5 point(s)]
+[1;35mTest 2...[0m
+	Checking process hierarchy...
+		[1;32mCORRECT        [0m [5 point(s)]
+	Checking threads from the same process...
+		[1;32mCORRECT        [0m [5 point(s)]
+	Checking threads barrier...
+		the following threads are running while ending thread T5.12: 12
+		[1;33mPARTIAL CORRECT[0m [2 point(s)]
+	Checking threads from different processes...
+		[1;32mCORRECT        [0m [5 point(s)]
+[1;35mTest 3...[0m
+	Checking process hierarchy...
+		[1;32mCORRECT        [0m [5 point(s)]
+	Checking threads from the same process...
+		[1;32mCORRECT        [0m [5 point(s)]
+	Checking threads barrier...
+		the following threads are running while ending thread T5.12: 2 12 1 3 5
+		[1;33mPARTIAL CORRECT[0m [2 point(s)]
+	Checking threads from different processes...
+		[1;32mCORRECT        [0m [5 point(s)]
+[1;35mTest 4...[0m
+	Checking process hierarchy...
+		[1;32mCORRECT        [0m [5 point(s)]
+	Checking threads from the same process...
+		[1;32mCORRECT        [0m [5 point(s)]
+	Checking threads barrier...
+		the following threads are running while ending thread T5.12: 12
+		[1;33mPARTIAL CORRECT[0m [2 point(s)]
+	Checking threads from different processes...
+		[1;32mCORRECT        [0m [5 point(s)]
+[1;35mTest 5...[0m
+	Checking process hierarchy...
+		[1;32mCORRECT        [0m [5 point(s)]
+	Checking threads from the same process...
+		[1;32mCORRECT        [0m [5 point(s)]
+	Checking threads barrier...
+		[1;32mCORRECT        [0m [5 point(s)]
+	Checking threads from different processes...
+		[1;32mCORRECT        [0m [5 point(s)]
+Total score: 88 / 100
+Assignment grade: 88.00 / 100

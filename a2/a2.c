@@ -10,13 +10,14 @@
 #include <pthread.h>
 #include <string.h>
 
+#define check(expr) if ((expr) < 0) exit(-1)
+
 typedef struct {
     sem_t th2_beg;
     sem_t th4_end;
 }Process3Context;
 
-typedef struct 
-{
+typedef struct{
     int id;
     sem_t* semaphore;
 
@@ -42,6 +43,11 @@ typedef void(*PFN_ChildProcessRoutine)(void*);
 pid_t CreateProcess(int customeID, PFN_ChildProcessRoutine Routine, void* Context) 
 {
     pid_t id = fork();
+    if(id == -1)
+    {
+        exit(-1);
+    }
+
     if(id == 0)
     {
         //Child
@@ -168,19 +174,19 @@ void Process3Routine(void* Context)
     {
         if(i == 2)
         {
-            pthread_create(&threads[i - 1], NULL, Process3Thread2, &context);
+            check(pthread_create(&threads[i - 1], NULL, Process3Thread2, &context));
         }
         else if(i == 3)
         {
-            pthread_create(&threads[i - 1], NULL, Process3Thread3, &globalContext);
+            check(pthread_create(&threads[i - 1], NULL, Process3Thread3, &globalContext));
         }
         else if(i == 4)
         {
-            pthread_create(&threads[i - 1], NULL, Process3Thread4, &context);
+            check(pthread_create(&threads[i - 1], NULL, Process3Thread4, &context));
         }
         else
         {
-            pthread_create(&threads[i - 1], NULL, Process3GenricThread, &ids[i - 1]);
+            check(pthread_create(&threads[i - 1], NULL, Process3GenricThread, &ids[i - 1]));
         }
     }
 
@@ -251,19 +257,24 @@ void Process4Routine(void* Context)
     globalContext.P3T3_End = sem_open(P3T3_END_SEMAPHORE_NAME, 0);
     globalContext.P4T1_End = sem_open(P4T1_END_SEMAPHORE_NAME, 0);
 
+    if(globalContext.P3T3_End == NULL || globalContext.P4T1_End == NULL)
+    {
+        check(-1);
+    }
+
     for(int i = 0; i < 5; ++i)
     {
         if(i == 3)
         {
-            pthread_create(&threads[i], NULL, Process4Thread4, &globalContext);
+            check(pthread_create(&threads[i], NULL, Process4Thread4, &globalContext));
         }
         else if(i == 0)
         {
-            pthread_create(&threads[i], NULL, Process4Thread1, &globalContext);
+            check(pthread_create(&threads[i], NULL, Process4Thread1, &globalContext));
         }
         else
         {
-            pthread_create(&threads[i], NULL, Process4Thread, &ids[i]);
+            check(pthread_create(&threads[i], NULL, Process4Thread, &ids[i]));
         }
     }
 
@@ -343,13 +354,13 @@ void Process5Routine(void* Context)
     pthread_t threads[47];
 
     sem_t mainSem;
-    sem_init(&mainSem, 0, 6);
+    check(sem_init(&mainSem, 0, 6));
     
     pthread_mutex_t lock;
-    pthread_mutex_init(&lock, NULL);
+    check(pthread_mutex_init(&lock, NULL));
 
     pthread_cond_t cVar;
-    pthread_cond_init(&cVar, NULL);
+    check(pthread_cond_init(&cVar, NULL));
 
     int numActiveThreads = 0;
     int t12Active = 0;
@@ -365,7 +376,7 @@ void Process5Routine(void* Context)
         contexts[i].t12Active = &t12Active;
         contexts[i].remainingThreads = &remainingThread;
 
-        pthread_create(&threads[i], NULL, Process5ThreadRoutine, &contexts[i]);
+        check(pthread_create(&threads[i], NULL, Process5ThreadRoutine, &contexts[i]));
     }
 
     for(int i = 0; i < 47; ++i)
